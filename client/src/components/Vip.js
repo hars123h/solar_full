@@ -187,7 +187,7 @@ const Vip = () => {
 
                                 </div>
 
-                                <p className='leading-tight bg-[#265eac] p-5 text-[white] rounded-lg'>You need to upgrade vip to get product purchase rights. If you need to purchase vip 1
+                                <p className='leading-tight bg-[#162ba2] p-5 text-[white] rounded-lg'>You need to upgrade vip to get product purchase rights. If you need to purchase vip 1
                                     products, You need to invest enough in fixed income products.</p>
 
                             </div>

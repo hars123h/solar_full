@@ -52,7 +52,7 @@ const BankCard = () => {
 
                         {userDetails?.bank_details?.fullName !== '' &&
                             <div className="text-white">
-                                <div className="bg-[#265eac] rounded-md p-5" >
+                                <div className="bg-[#162ba2] rounded-md p-5" >
 
                                     <div className="flex items-center text-white space-x-3 text-lg">
                                         <CgCreditCard />
@@ -66,7 +66,7 @@ const BankCard = () => {
 
                                     <p className=''>{userDetails?.bank_details?.fullName}</p>
 
-                                    <p className='text-right text-4xl mt-3 font-bold'>Cipla</p>
+                                    <p className='text-right text-4xl mt-3 font-bold'>Solar Square</p>
 
 
                                 </div>
@@ -75,7 +75,7 @@ const BankCard = () => {
 
                     </div>
 
-                    <Link to={'/bankcardadd'} className='bg-[#265eac] my-[30px] p-[10px] text-[white] w-[90vw] text-center rounded-3xl fixed bottom-0 flex items-center justify-center mx-5' >
+                    <Link to={'/bankcardadd'} className='bg-[#162ba2] my-[30px] p-[10px] text-[white] w-[90vw] text-center rounded-3xl fixed bottom-0 flex items-center justify-center mx-5' >
                         <AiOutlinePlus size={25} className='mx-2 align-bottom' />
 
                         Add Bank card

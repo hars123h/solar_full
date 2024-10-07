@@ -28,7 +28,7 @@ const Company = () => {
 
                     <img src={about1} alt="" /> <br /><br />
 
-                    <h1 className='mb-3 font-bold mt-10'>About Cipla</h1>
+                    <h1 className='mb-3 font-bold mt-10'>About Solar Square</h1>
                     We have leveraged and invested in our manufacturing capital through facilities that are cGMP compliant and approved globally. This has facilitated the company to attain a global leadership position in the pharmaceutical sector.
                     <br /><br />
                     The confidence of patients and healthcare professionals in our products has strengthened over the years due to consistent and timely delivery of highly dependable products. We continue to strive to retain this confidence by diligently manufacturing high quality medicines and implementing innovative, path breaking technologies to deliver superior quality products.

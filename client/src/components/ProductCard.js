@@ -410,7 +410,7 @@ const ProductCard = ({ active, pre_sale, long_plan_state, product_no, product_ty
                                 </p>
                             </div>
                         } */}
-                        <div onClick={handelClick} className="w-[10vw] max-w-md max-h-md h-[10vw] bg-[#265eac] rounded-full font-bold flex justify-center items-center text-white">
+                        <div onClick={handelClick} className="w-[10vw] max-w-md max-h-md h-[10vw] bg-[#162ba2] rounded-full font-bold flex justify-center items-center text-white">
                             <BsArrowUpRight size={20} />
 
                         </div>

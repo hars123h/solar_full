@@ -952,22 +952,22 @@ exports.get_controllers = async (req, res) => {
   }
 }
 
-// exports.update_amounts = async (req, res) => {
-//   try {
-//     await Amount.updateOne({ _id: "63d3b7f558faef0089cb09cb" }, {
-//       $set: {
-//         ...req.body
-//       }
-//     });
-//     res.status(200).json({
-//       message: 'Amounts updated successfully!'
-//     })
-//   } catch (error) {
-//     res.status(400).json({
-//       message: 'Something went wrong!'
-//     })
-//   }
-// }
+exports.update_amounts = async (req, res) => {
+  try {
+    await Amount.updateOne({ _id: "63d3b7f558faef0089cb09cb" }, {
+      $set: {
+        ...req.body
+      }
+    });
+    res.status(200).json({
+      message: 'Amounts updated successfully!'
+    })
+  } catch (error) {
+    res.status(400).json({
+      message: 'Something went wrong!'
+    })
+  }
+}
 
 exports.delete_controller = async (req, res) => {
   const { user_id } = req.body;

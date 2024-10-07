@@ -10,7 +10,7 @@ const {
         get_all_controllers, get_all_feedbacks, get_blocked_users, add_blocked_users,
         get_user, get_user_recharges, get_user_withdrawals, get_paginated_user,
         update_balance, search_users, get_promo_amount, invite_rewards, lvl1, lvl2, lvl3,
-        withdrawalSum, related_recharges, reset_withdrawal_password, commission, userdetailsUpdate, signinReward, task_reward
+        withdrawalSum, related_recharges, reset_withdrawal_password, commission, userdetailsUpdate, signinReward, task_reward, update_amounts
 } = require('../controllers/auth');
 
 const router = express.Router();
@@ -31,7 +31,7 @@ router.post('/amount_setup', amount_setup);
 router.post('/add_controller', add_controller);
 router.get('/controllers', get_controllers);
 router.get('/amounts', get_amounts);
-// router.post('/update_amounts', update_amounts)
+router.post('/update_amounts', update_amounts)
 router.get('/get_all_recharges', get_all_recharges);
 router.get('/get_all_withdrawals', get_all_withdrawals);
 router.get('/get_user_count', get_user_count);

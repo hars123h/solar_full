@@ -101,7 +101,7 @@ const Order = () => {
                                             return (
                                                 <div className="my-[5px] border-x-2 bg-[#f8f9fb] border-[#f8f9fb] border-b-2  rounded-[7px]" key={index}>
 
-                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[#265eac] text-white">Plan Details</div>
+                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[#162ba2] text-white">Plan Details</div>
                                                     <div className='p-3'>
                                                         <div className='mb-1'>plan amount: &#8377;{element.plan_amount}</div>
                                                         <div className='mb-1'>earn: &#8377;{DateDifference(new Date(element.date_purchased), new Date(element.date_till_rewarded)) * element.quantity * element.plan_daily_earning}</div>
@@ -127,7 +127,7 @@ const Order = () => {
                                             return (
                                                 <div className="my-[5px] border-x-2 bg-[#f8f9fb] border-[#f8f9fb] border-b-2  rounded-[7px]" key={index}>
 
-                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[#265eac] text-white">Plan Details</div>
+                                                    <div className="p-3 text-base font-semibold bg-confirm rounded-t-lg bg-[#162ba2] text-white">Plan Details</div>
                                                     <div className='p-3'>
                                                         <div className='mb-1'>plan amount: &#8377;{element.plan_amount}</div>
                                                         <div className='mb-1'>earn: &#8377;{DateDifference(new Date(element.date_purchased), new Date(element.date_till_rewarded)) * element.quantity * element.plan_daily_earning}</div>
